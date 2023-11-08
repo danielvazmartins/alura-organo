@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Banner from "./components/Banner/Banner";
+import MainForm from "./components/MainForm/MainForm";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [contributors, setContributors] = useState()
+
+	return (
+		<>
+			<Banner></Banner>
+			<MainForm newContributor={(contributor) => console.log(contributor)}></MainForm>
+		</>
+	);
 }
 
 export default App;

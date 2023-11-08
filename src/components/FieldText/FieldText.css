@@ -1,0 +1,15 @@
+.fieldText {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.fieldText label {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.fieldText input {
+    padding: 8px;
+}
