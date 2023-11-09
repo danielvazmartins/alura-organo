@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #6278F7 url("../../../public/images/fundo.png") no-repeat center center fixed;
+    background-size: cover;
+}

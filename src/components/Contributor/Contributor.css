@@ -1,0 +1,43 @@
+.box-card {
+    display: flex;
+    width: 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.box-card .header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80px;
+}
+
+.box-card .header img {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+}
+
+.box-card .content {
+    width: 100%;
+    padding-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.box-card .content h4 {
+    color: #6278F7;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-card .content p {
+    font-size: 16px;
+    color: #212121;
+    padding: 0 16px;
+}

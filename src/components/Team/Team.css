@@ -1,0 +1,18 @@
+.box-team {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-team h1 {
+    font-size: 18px;
+    border-bottom: 3px solid;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.box-team .box-contributors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
