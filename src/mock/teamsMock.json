@@ -1,0 +1,22 @@
+[{
+    "name": "Programação",
+    "cardColor": "#57C278"
+}, {
+    "name": "Front-End",
+    "cardColor": "#82CFFA"
+}, {
+    "name": "Data Science",
+    "cardColor": "#A6D157"
+}, {
+    "name": "Devops",
+    "cardColor": "#E06B69"
+}, {
+    "name": "UX e Design",
+    "cardColor": "#DB6EBF"
+}, {
+    "name": "Mobile",
+    "cardColor": "#FFBA05"
+}, {
+    "name": "Inovação e Gestão",
+    "cardColor": "#FF8A29"
+}]

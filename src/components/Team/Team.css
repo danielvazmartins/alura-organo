@@ -1,6 +1,7 @@
 .box-team {
     margin: 20px 0;
     text-align: center;
+    position: relative;
 }
 
 .box-team h1 {
@@ -8,6 +9,13 @@
     border-bottom: 3px solid;
     display: inline-block;
     padding-bottom: 6px;
+}
+
+.box-team .input-color {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
 }
 
 .box-team .box-contributors {
